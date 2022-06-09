@@ -1,2 +1,1 @@
-#!/bin/bash
-rsync -avzx --exclude=".git*" ~/code/brendancoates.net /www
+rsync -avzx --progress --exclude="*.git" /home/brnco/code/brendancoates.net /www
